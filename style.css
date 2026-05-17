@@ -124,6 +124,8 @@
       padding: 4px 8px;
       display: flex; gap: 5px;
       flex-wrap: wrap;
+     justify-content: center;
+      align-items: center;
     }
     .navbar::-webkit-scrollbar { display: none; }
     .nav-btn {
