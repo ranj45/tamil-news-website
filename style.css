@@ -282,12 +282,15 @@
   padding: 12px;
   margin-bottom: 6px;
   border: 1.5px solid var(--border);
+  overflow: auto;
+  height: 450px;
+  scrollbar-width: thin;
 }
 
 .detail-title {
-  font-size: clamp(14px, 3.5vw, 20px);
+  font-size: clamp(10px, 12px, 20px);
   font-weight: 900;
-  line-height: 1.5;
+  line-height: 16px;
   margin-bottom: 8px;
   color: #0d6efd;
 }
@@ -324,10 +327,9 @@
   background: var(--white);
   border-radius: 5px;
   padding: 12px;
-  margin-bottom: 6px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .comment-title {
@@ -371,15 +373,15 @@
 .related-section {
   background: var(--white);
   border-radius: 5px;
-  padding: 12px;
+  padding:0px 12px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 3px;
 }
 
 .related-title {
-  font-size: 13px;
-  font-weight: 800;
+  font-size: 10px;
+  font-weight: 600;
   color: var(--red);
   margin-bottom: 4px;
   padding-bottom: 6px;
@@ -404,6 +406,7 @@
       .bot-ad { min-height: 95px; }
       .ba-name { font-size: 15px; } .ba-phone { font-size: 11px; }
       .ticker-bar{margin: 0 auto;}
+      .detail-body p {line-height: 16px;}
 
       
     }
